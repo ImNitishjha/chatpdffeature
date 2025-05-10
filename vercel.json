@@ -4,12 +4,7 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["iad1"],
-  "env": {
-  "OPENAI_API_KEY": "@openai_api_key",
-  "PINECONE_API_KEY": "@pinecone_api_key",
-  "PINECONE_ENVIRONMENT": "@pinecone_environment",
-  "PINECONE_INDEX_NAME": "@pinecone_index_name"
-}
+  
 
  
 } 
