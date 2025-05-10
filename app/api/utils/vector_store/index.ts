@@ -32,7 +32,7 @@ export async function loadRetriever({
   const retriever = vectorStore.asRetriever({
     k: 8,
     searchType: "similarity",
-    minRelevanceScore: 0.7,
+    
   });
 
   return { retriever };
